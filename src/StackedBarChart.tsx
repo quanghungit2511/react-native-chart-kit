@@ -133,7 +133,7 @@ class StackedBarChart extends AbstractChart<
           />
         );
 
-        if (!this.props.hideLegend) {
+        if (true) {
           ret.push(
             <Text
               key={Math.random()}
